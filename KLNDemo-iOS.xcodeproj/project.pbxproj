@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		5A3C7CFA2DBC27B000A786B7 /* LibUIParent in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7CF92DBC27B000A786B7 /* LibUIParent */; };
 		5A3C7CFE2DBC2A1300A786B7 /* UIDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7CFD2DBC2A1300A786B7 /* UIDashboard */; };
+		5A3C7D022DBC2DF100A786B7 /* KvColorPalette-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D012DBC2DF100A786B7 /* KvColorPalette-iOS */; };
+		5A3C7D042DBC306900A786B7 /* LibUICommon in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D032DBC306900A786B7 /* LibUICommon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A3C7C682DBC168500A786B7 /* KLNDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KLNDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3C7CF82DBC273100A786B7 /* LibUIParent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LibUIParent; sourceTree = "<group>"; };
 		5A3C7CFC2DBC291A00A786B7 /* UIDashboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIDashboard; sourceTree = "<group>"; };
+		5A3C7CFF2DBC2D7D00A786B7 /* LibUICommon */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LibUICommon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -31,6 +34,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3C7CFA2DBC27B000A786B7 /* LibUIParent in Frameworks */,
+				5A3C7D042DBC306900A786B7 /* LibUICommon in Frameworks */,
+				5A3C7D022DBC2DF100A786B7 /* KvColorPalette-iOS in Frameworks */,
 				5A3C7CFE2DBC2A1300A786B7 /* UIDashboard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +46,7 @@
 		5A3C7C5F2DBC168500A786B7 = {
 			isa = PBXGroup;
 			children = (
+				5A3C7CFF2DBC2D7D00A786B7 /* LibUICommon */,
 				5A3C7CFC2DBC291A00A786B7 /* UIDashboard */,
 				5A3C7CF82DBC273100A786B7 /* LibUIParent */,
 				5A3C7C6A2DBC168500A786B7 /* KLNDemo-iOS */,
@@ -86,6 +92,8 @@
 			packageProductDependencies = (
 				5A3C7CF92DBC27B000A786B7 /* LibUIParent */,
 				5A3C7CFD2DBC2A1300A786B7 /* UIDashboard */,
+				5A3C7D012DBC2DF100A786B7 /* KvColorPalette-iOS */,
+				5A3C7D032DBC306900A786B7 /* LibUICommon */,
 			);
 			productName = "KLNDemo-iOS";
 			productReference = 5A3C7C682DBC168500A786B7 /* KLNDemo-iOS.app */;
@@ -116,6 +124,7 @@
 			mainGroup = 5A3C7C5F2DBC168500A786B7;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				5A3C7D002DBC2DF100A786B7 /* XCRemoteSwiftPackageReference "KvColorPalette-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A3C7C692DBC168500A786B7 /* Products */;
@@ -284,7 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,6 +361,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		5A3C7D002DBC2DF100A786B7 /* XCRemoteSwiftPackageReference "KvColorPalette-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KvColorPalette/KvColorPalette-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		5A3C7CF92DBC27B000A786B7 /* LibUIParent */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -360,6 +380,15 @@
 		5A3C7CFD2DBC2A1300A786B7 /* UIDashboard */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UIDashboard;
+		};
+		5A3C7D012DBC2DF100A786B7 /* KvColorPalette-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A3C7D002DBC2DF100A786B7 /* XCRemoteSwiftPackageReference "KvColorPalette-iOS" */;
+			productName = "KvColorPalette-iOS";
+		};
+		5A3C7D032DBC306900A786B7 /* LibUICommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LibUICommon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

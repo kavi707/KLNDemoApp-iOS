@@ -8,6 +8,9 @@
 import Foundation
 import UIKit
 import LibUIParent
+import SwiftUI
+import KvColorPalette_iOS
+import LibUICommon
 
 @MainActor
 class KLNDemoAppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +21,9 @@ class KLNDemoAppDelegate: UIResponder, UIApplicationDelegate {
         
         // Register all UI modules
         UIModuleConfig().registerUIModules()
+        
+        // Initiate the KvColorPalette
+        KvColorPalette.initialize(basicColor: .uokThemeColor)
         
         return true
     }

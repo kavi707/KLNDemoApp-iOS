@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "UIDashboard",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v18)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -16,6 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(path: "../LibUIParent"),
+        .package(path: "../LibUICommon"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -23,7 +24,8 @@ let package = Package(
         .target(
             name: "UIDashboard",
             dependencies: [
-                "LibUIParent"
+                "LibUIParent",
+                "LibUICommon"
             ]
         ),
 

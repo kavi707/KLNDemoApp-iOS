@@ -6,10 +6,29 @@
 //
 
 import SwiftUI
+import LibUICommon
 
 struct DasboardTabView: View {
+    
+    @State private var selectedColor = Color.white
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            AppBackground()
+            
+            VStack {
+                TabView {
+                    SampleView()
+                        .tabItem {
+                            Label("Color Palette", systemImage: "square.grid.3x3")
+                        }
+                    SampleView()
+                        .tabItem {
+                            Label("Theme Gen", systemImage: "theatermask.and.paintbrush")
+                        }
+                }
+            }
+        }
     }
 }
 

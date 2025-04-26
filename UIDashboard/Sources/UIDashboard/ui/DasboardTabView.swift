@@ -7,6 +7,7 @@
 
 import SwiftUI
 import LibUICommon
+import LibUIParent
 
 struct DasboardTabView: View {
     
@@ -18,13 +19,17 @@ struct DasboardTabView: View {
             
             VStack {
                 TabView {
-                    SampleView()
+                    UINavigator.navigateToUIModule(moduleName: "APPLIED_COMPUTING", entryData: nil)
                         .tabItem {
-                            Label("Color Palette", systemImage: "square.grid.3x3")
+                            Label("DAC", systemImage: "square.grid.3x3")
                         }
-                    SampleView()
+                    UINavigator.navigateToUIModule(moduleName: "SOFTWARE_ENGINEERING", entryData: nil)
                         .tabItem {
-                            Label("Theme Gen", systemImage: "theatermask.and.paintbrush")
+                            Label("DSE", systemImage: "theatermask.and.paintbrush")
+                        }
+                    UINavigator.navigateToUIModule(moduleName: "COMPUTER_SYSTEM", entryData: nil)
+                        .tabItem {
+                            Label("DCSE", systemImage: "theatermask.and.paintbrush")
                         }
                 }
             }

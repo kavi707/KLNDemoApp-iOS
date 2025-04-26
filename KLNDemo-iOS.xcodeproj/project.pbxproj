@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0ACC922DBD27B60031CD59 /* UIComputerSystemEngineering in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0ACC912DBD27B60031CD59 /* UIComputerSystemEngineering */; };
 		5A3C7CFA2DBC27B000A786B7 /* LibUIParent in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7CF92DBC27B000A786B7 /* LibUIParent */; };
 		5A3C7CFE2DBC2A1300A786B7 /* UIDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7CFD2DBC2A1300A786B7 /* UIDashboard */; };
 		5A3C7D022DBC2DF100A786B7 /* KvColorPalette-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D012DBC2DF100A786B7 /* KvColorPalette-iOS */; };
 		5A3C7D042DBC306900A786B7 /* LibUICommon in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D032DBC306900A786B7 /* LibUICommon */; };
+		5A3C7D082DBC969700A786B7 /* UIAppliedComputing in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D072DBC969700A786B7 /* UIAppliedComputing */; };
+		5A3C7D0A2DBC969C00A786B7 /* UISoftwareEngineering in Frameworks */ = {isa = PBXBuildFile; productRef = 5A3C7D092DBC969C00A786B7 /* UISoftwareEngineering */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A0ACC902DBD27790031CD59 /* UIComputerSystemEngineering */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIComputerSystemEngineering; sourceTree = "<group>"; };
 		5A3C7C682DBC168500A786B7 /* KLNDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KLNDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3C7CF82DBC273100A786B7 /* LibUIParent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LibUIParent; sourceTree = "<group>"; };
 		5A3C7CFC2DBC291A00A786B7 /* UIDashboard */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIDashboard; sourceTree = "<group>"; };
 		5A3C7CFF2DBC2D7D00A786B7 /* LibUICommon */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LibUICommon; sourceTree = "<group>"; };
+		5A3C7D052DBC94D200A786B7 /* UIAppliedComputing */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIAppliedComputing; sourceTree = "<group>"; };
+		5A3C7D062DBC956100A786B7 /* UISoftwareEngineering */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UISoftwareEngineering; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,8 +40,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3C7CFA2DBC27B000A786B7 /* LibUIParent in Frameworks */,
+				5A3C7D0A2DBC969C00A786B7 /* UISoftwareEngineering in Frameworks */,
+				5A3C7D082DBC969700A786B7 /* UIAppliedComputing in Frameworks */,
 				5A3C7D042DBC306900A786B7 /* LibUICommon in Frameworks */,
 				5A3C7D022DBC2DF100A786B7 /* KvColorPalette-iOS in Frameworks */,
+				5A0ACC922DBD27B60031CD59 /* UIComputerSystemEngineering in Frameworks */,
 				5A3C7CFE2DBC2A1300A786B7 /* UIDashboard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,10 +55,13 @@
 		5A3C7C5F2DBC168500A786B7 = {
 			isa = PBXGroup;
 			children = (
-				5A3C7CFF2DBC2D7D00A786B7 /* LibUICommon */,
-				5A3C7CFC2DBC291A00A786B7 /* UIDashboard */,
-				5A3C7CF82DBC273100A786B7 /* LibUIParent */,
 				5A3C7C6A2DBC168500A786B7 /* KLNDemo-iOS */,
+				5A3C7CFF2DBC2D7D00A786B7 /* LibUICommon */,
+				5A3C7CF82DBC273100A786B7 /* LibUIParent */,
+				5A3C7CFC2DBC291A00A786B7 /* UIDashboard */,
+				5A3C7D052DBC94D200A786B7 /* UIAppliedComputing */,
+				5A3C7D062DBC956100A786B7 /* UISoftwareEngineering */,
+				5A0ACC902DBD27790031CD59 /* UIComputerSystemEngineering */,
 				5A3C7C7E2DBC1EA500A786B7 /* Frameworks */,
 				5A3C7C692DBC168500A786B7 /* Products */,
 			);
@@ -94,6 +106,9 @@
 				5A3C7CFD2DBC2A1300A786B7 /* UIDashboard */,
 				5A3C7D012DBC2DF100A786B7 /* KvColorPalette-iOS */,
 				5A3C7D032DBC306900A786B7 /* LibUICommon */,
+				5A3C7D072DBC969700A786B7 /* UIAppliedComputing */,
+				5A3C7D092DBC969C00A786B7 /* UISoftwareEngineering */,
+				5A0ACC912DBD27B60031CD59 /* UIComputerSystemEngineering */,
 			);
 			productName = "KLNDemo-iOS";
 			productReference = 5A3C7C682DBC168500A786B7 /* KLNDemo-iOS.app */;
@@ -373,6 +388,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5A0ACC912DBD27B60031CD59 /* UIComputerSystemEngineering */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComputerSystemEngineering;
+		};
 		5A3C7CF92DBC27B000A786B7 /* LibUIParent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LibUIParent;
@@ -389,6 +408,14 @@
 		5A3C7D032DBC306900A786B7 /* LibUICommon */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LibUICommon;
+		};
+		5A3C7D072DBC969700A786B7 /* UIAppliedComputing */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIAppliedComputing;
+		};
+		5A3C7D092DBC969C00A786B7 /* UISoftwareEngineering */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UISoftwareEngineering;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

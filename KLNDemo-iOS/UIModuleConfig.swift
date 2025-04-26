@@ -8,6 +8,9 @@
 import Foundation
 import LibUIParent
 import UIDashboard
+import UIAppliedComputing
+import UISoftwareEngineering
+import UIComputerSystemEngineering
 
 class UIModuleConfig {
 
@@ -15,5 +18,8 @@ class UIModuleConfig {
 
     func registerUIModules() {
         uiModuleRegistry?.registerUIModule(moduleName: "DASHBOARD", moduleContract: DashboardContract())
+        uiModuleRegistry?.registerUIModule(moduleName: "APPLIED_COMPUTING", moduleContract: AppliedComputingDeptContract())
+        uiModuleRegistry?.registerUIModule(moduleName: "SOFTWARE_ENGINEERING", moduleContract: SoftwareEngineeringContract())
+        uiModuleRegistry?.registerUIModule(moduleName: "COMPUTER_SYSTEM", moduleContract: ComputerSystemEngineeringContract())
     }
 }

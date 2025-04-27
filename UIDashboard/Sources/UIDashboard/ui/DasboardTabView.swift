@@ -16,8 +16,7 @@ struct DasboardTabView: View {
     var body: some View {
         ZStack {
             AppBackground()
-            
-            VStack {
+
                 TabView {
                     UINavigator.navigateToUIModule(moduleName: "APPLIED_COMPUTING", entryData: nil)
                         .tabItem {
@@ -44,7 +43,6 @@ struct DasboardTabView: View {
                             Text("DCSE")
                         }
                 }
-            }
         }
     }
 }

@@ -20,7 +20,7 @@ struct ACDeptHome: View {
             ScrollView {
                 VStack {
                     
-                    HeadingTitleView(titleText: "Department of Applied Computing")
+                    HeadingTitleView(titleText: NSLocalizedString("label.dept.name", bundle: .module, comment: "a comment"))
                     
                     HStack {
                         Image("dac.home.image", bundle: .module)
@@ -68,7 +68,6 @@ struct ACDeptHome: View {
                 }
             }
         }
-        
     }
 }
 

@@ -1,0 +1,83 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "label.dept.name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Department of Computer Systems Engineering"
+          }
+        }
+      }
+    },
+    "label.head.msg" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Head’s Message"
+          }
+        }
+      }
+    },
+    "label.read.less" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Less"
+          }
+        }
+      }
+    },
+    "label.read.more" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read More"
+          }
+        }
+      }
+    },
+    "label.staff" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staff"
+          }
+        }
+      }
+    },
+    "phrase.head.msg.full" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the Department of Computer Systems Engineering (DCSE). The department is committed to support the mission of the Faculty of Computing and Technology through dissemination of knowledge and capacity building for socio-economic development of Sri Lanka.\n\nThe department offers all the course modules related to Computer Systems, Computer Networks, Communication, Cyber Security, IOT, Mobile and Distributed Computing, Embedded Systems,  Robotics, Mathematics and Statistics for all three-undergraduate degree programmes offered by the Faculty of Computing and Technology. Furthermore the DCSE offers Computer Network Technology specialization for bachelor of Information and Communication Technology degree programme and Cyber Security specialization for Bachelor of Science in Computer Science degree programme. In addition, department also offers MPhil and PhD programmes in the above fields for postgraduate students.\n    \nDepartment provides students the necessary technical and academic environment with required academic guidance and technology support to develop their academic and professional career."
+          }
+        }
+      }
+    },
+    "phrase.head.msg.short" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the Department of Computer Systems Engineering (DCSE). The department is committed to support the mission of the Faculty of Computing and Technology through dissemination of knowledge and capacity building for socio-economic development of Sri Lanka."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

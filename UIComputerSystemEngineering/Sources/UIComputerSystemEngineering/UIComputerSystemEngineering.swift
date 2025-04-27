@@ -14,7 +14,7 @@ public class ComputerSystemEngineeringContract: UIModuleContract {
     public init() {}
     
     public func getEntryUI(entryData: String?) -> AnyView {
-        return AnyView(DeptHome())
+        return AnyView(CSEDeptHome())
     }
     
     public func invokeAction(actionName: String) -> String {

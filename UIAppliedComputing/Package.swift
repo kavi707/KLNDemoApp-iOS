@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "UIAppliedComputing",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v18)
     ],
@@ -26,6 +27,9 @@ let package = Package(
             dependencies: [
                 "LibUIParent",
                 "LibUICommon"
+            ],
+            resources: [
+                .process("resources/Media.xcassets")
             ]
         ),
 

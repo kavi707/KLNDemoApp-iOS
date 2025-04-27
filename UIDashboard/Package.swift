@@ -26,6 +26,9 @@ let package = Package(
             dependencies: [
                 "LibUIParent",
                 "LibUICommon"
+            ],
+            resources: [
+                .process("resources/Media.xcassets")
             ]
         ),
 

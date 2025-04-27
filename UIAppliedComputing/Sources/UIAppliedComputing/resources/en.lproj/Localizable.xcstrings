@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "label.head.msg" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Head’s Message"
+          }
+        }
+      }
+    },
+    "label.read.less" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Less"
+          }
+        }
+      }
+    },
+    "label.read.more" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read More"
+          }
+        }
+      }
+    },
+    "label.staff" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staff"
+          }
+        }
+      }
+    },
+    "phrase.head.msg.full" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teaching and research in Science, Technology, Engineering and Computation take place in the unified Department of Applied Computing at the Faculty of Computing and Technology.  The department hosts academic experts in the diverse fields of  Manufacturing and Process Engineering, Materials Science and Engineering, Electrical and Computer Engineering, Mechatronics and Industrial Automation, Computer-Aided Manufacturing and Design as well as Embedded Systems and Robotics.\n     \nThe department offers courses in the major fields of General Technology, Engineering Technology, Materials and Process Technology, Industrial Automation and Robotics and Sustainable Technology. The department also directs undergraduate research and development projects in each of these fields.  The academic staff is committed to delivering courses using innovative teaching methods incorporating the learning-centered pedagogy as well as conducting research in cutting edge fields such as Nano science and nanotechnology, Computational Materials, Sustainable Technologies,  Operations Management and Technology Education.\n\nThe department is committed to increasing interdisciplinary interactions between the fields of computing, science, engineering and technology. This has been realized through the contribution of the members of the department to research and teaching in the Faculty of Computing and Technology."
+          }
+        }
+      }
+    },
+    "phrase.head.msg.short" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teaching and research in Science, Technology, Engineering and Computation take place in the unified Department of Applied Computing at the Faculty of Computing and Technology.  The department hosts academic experts in the diverse fields of  Manufacturing and Process Engineering, Materials Science and Engineering, Electrical and Computer Engineering, Mechatronics and Industrial Automation, Computer-Aided Manufacturing and Design as well as Embedded Systems and Robotics."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

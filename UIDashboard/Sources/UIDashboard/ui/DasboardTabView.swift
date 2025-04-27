@@ -21,15 +21,27 @@ struct DasboardTabView: View {
                 TabView {
                     UINavigator.navigateToUIModule(moduleName: "APPLIED_COMPUTING", entryData: nil)
                         .tabItem {
-                            Label("DAC", systemImage: "square.grid.3x3")
+                            Image(systemName: "aqi.medium")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                            Text("DAC")
                         }
                     UINavigator.navigateToUIModule(moduleName: "SOFTWARE_ENGINEERING", entryData: nil)
                         .tabItem {
-                            Label("DSE", systemImage: "theatermask.and.paintbrush")
+                            Image(systemName: "desktopcomputer.and.macbook")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                            Text("DSE")
                         }
                     UINavigator.navigateToUIModule(moduleName: "COMPUTER_SYSTEM", entryData: nil)
                         .tabItem {
-                            Label("DCSE", systemImage: "theatermask.and.paintbrush")
+                            Image(systemName: "bonjour")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 40)
+                            Text("DCSE")
                         }
                 }
             }

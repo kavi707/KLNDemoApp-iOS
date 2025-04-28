@@ -11,6 +11,7 @@ import UIDashboard
 import UIAppliedComputing
 import UISoftwareEngineering
 import UIComputerSystemEngineering
+import UIStaff
 
 class UIModuleConfig {
 
@@ -21,5 +22,6 @@ class UIModuleConfig {
         uiModuleRegistry?.registerUIModule(moduleName: "APPLIED_COMPUTING", moduleContract: AppliedComputingDeptContract())
         uiModuleRegistry?.registerUIModule(moduleName: "SOFTWARE_ENGINEERING", moduleContract: SoftwareEngineeringContract())
         uiModuleRegistry?.registerUIModule(moduleName: "COMPUTER_SYSTEM", moduleContract: ComputerSystemEngineeringContract())
+        uiModuleRegistry?.registerUIModule(moduleName: "STAFF", moduleContract: StaffContract())
     }
 }

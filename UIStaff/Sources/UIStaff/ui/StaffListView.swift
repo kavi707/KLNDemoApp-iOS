@@ -10,14 +10,12 @@ import LibUICommon
 
 struct StaffListView: View {
     
-    //@Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
-    
-    //public init() {}
+    @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     
     public var body: some View {
         VStack {
-            HeadingTitleViewWithX(titleText: "Staff", closeAction: {
-                //presentationMode.wrappedValue.dismiss()
+            HeadingTitleViewWithX(titleText: NSLocalizedString("label.staff", bundle: .module, comment: "a comment"), closeAction: {
+                presentationMode.wrappedValue.dismiss()
             })
             
             Spacer()

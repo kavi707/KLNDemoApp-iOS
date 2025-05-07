@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "label.dept.head.name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dr. Laalitha S. I. Liyanage"
+          }
+        }
+      }
+    },
     "label.dept.name" : {
       "extractionState" : "manual",
       "localizations" : {

@@ -47,6 +47,13 @@ struct ACDeptHome: View {
                         
                         HStack {
                             Spacer()
+                            Text("label.dept.head.name", bundle: .module)
+                                .font(.system(size: 12, weight: .bold))
+                        }
+                        .padding()
+                        
+                        HStack {
+                            Spacer()
                             Button(action: {
                                 viewMore.toggle()
                             }) {

@@ -9,11 +9,11 @@ import Foundation
 import SwiftUI
 import LibUIParent
 
-public class StaffContract: UIModuleContract {
+public class StaffContract: @preconcurrency UIModuleContract {
     
     public init() {}
     
-    public func getEntryUI(entryData: String?) -> AnyView {
+    @MainActor public func getEntryUI(entryData: String?) -> AnyView {
         return AnyView(StaffListView())
     }
     

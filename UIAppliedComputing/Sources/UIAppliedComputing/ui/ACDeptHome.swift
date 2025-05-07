@@ -50,7 +50,7 @@ struct ACDeptHome: View {
                             Text("label.dept.head.name", bundle: .module)
                                 .font(.system(size: 12, weight: .bold))
                         }
-                        .padding()
+                        .padding(2)
                         
                         HStack {
                             Spacer()
@@ -78,7 +78,8 @@ struct ACDeptHome: View {
             }
         }
         .fullScreenCover(isPresented: $navigateToStaff, content: {
-            UINavigator.navigateToUIModule(moduleName: "STAFF", entryData: nil)
+            let dataString = DataUtil.getJSONStringFromObject(data: Repository().staffData)
+            UINavigator.navigateToUIModule(moduleName: "STAFF", entryData: dataString)
         })
     }
 }

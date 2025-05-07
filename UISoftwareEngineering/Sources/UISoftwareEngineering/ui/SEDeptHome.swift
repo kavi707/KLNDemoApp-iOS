@@ -8,10 +8,12 @@
 import SwiftUI
 import KvColorPalette_iOS
 import LibUICommon
+import LibUIParent
 
 struct SEDeptHome: View {
     
     @State var viewMore: Bool = false
+    @State var navigateToStaff: Bool = false
     
     var body: some View {
         ZStack {
@@ -48,7 +50,7 @@ struct SEDeptHome: View {
                             Text("label.dept.head.name", bundle: .module)
                                 .font(.system(size: 12, weight: .bold))
                         }
-                        .padding()
+                        .padding(2)
                         
                         HStack {
                             Spacer()
@@ -65,7 +67,7 @@ struct SEDeptHome: View {
                     .padding()
                     
                     Button(action: {
-                        
+                        navigateToStaff = true
                     }, label: {
                         AppButtonFillUI(buttonText: NSLocalizedString("label.staff", bundle: .module, comment: "a comment"))
                     })
@@ -75,6 +77,10 @@ struct SEDeptHome: View {
                 }
             }
         }
+        .fullScreenCover(isPresented: $navigateToStaff, content: {
+            let dataString = DataUtil.getJSONStringFromObject(data: Repository().staffData)
+            UINavigator.navigateToUIModule(moduleName: "STAFF", entryData: dataString)
+        })
     }
 }
 

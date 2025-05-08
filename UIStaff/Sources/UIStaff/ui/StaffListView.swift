@@ -93,7 +93,7 @@ struct LecturerItemView: View {
                 }
                 
             }
-            .padding([.leading, .trailing], 5)
+            .padding([.leading], 5)
             
             Spacer()
         }
@@ -108,4 +108,5 @@ struct LecturerItemView: View {
 
 #Preview {
     Text("Test Preview")
+        .frame(width: .infinity)
 }
